@@ -13,5 +13,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Backend Server running, press ctrl + c to end`);
+  console.log(`Backend Server running on ${PORT}, press ctrl + c to end`);
 });
